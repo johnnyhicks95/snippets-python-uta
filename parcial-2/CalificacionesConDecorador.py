@@ -7,22 +7,49 @@
 #  las variables deben declararse privadas, usar funciones decoradoras
 
 
-class Persona:
-    def __init__(self, cedula, nombre, ciudad):
-        # super().__init__()
-        self.cedula = cedula
-        self.nombre = nombre
-        self.ciudad = ciudad
+# class Persona:
+#     def __init__(self, cedula, nombre, ciudad):
+#         # super().__init__()
+#         self.cedula = cedula
+#         self.nombre = nombre
+#         self.ciudad = ciudad
 
-    def agregarPersona(self):
-        pass
-        # print(self.cedula)
+#     def agregarPersona(self):
+#         pass
+#         # print(self.cedula)
 
-personas = {}
-i=1
-while i <= 5:
-    personas[i] = Persona(i, "juan", "Ambato")
-    personas[i].agregarPersona()
-    i+=1
+# personas = {}
+# i=1
+# while i <= 5:
+#     personas[i] = Persona(i, "juan", "Ambato")
+#     personas[i].agregarPersona()
+#     i+=1
 
-print(personas)
+# print(personas)
+
+# {
+#   "asignatura": "Encantamientos",
+#      "estudiantes": {
+#          "pedro": {
+#                "nota1": 8
+#                "nota2": 8
+#                "nota3": 10
+#          },
+#          "john": {
+#                "nota1": 8
+#                "nota2": 8
+#                "nota3": 8
+#       },
+#   
+#   "asignatura": "Pociones",
+#       "estudiantes" : {
+#            "mario" : {
+#                "nota1": 10
+#           }
+#       }
+#
+#   }
+# }
+
+class Asignatura:
+    pass
