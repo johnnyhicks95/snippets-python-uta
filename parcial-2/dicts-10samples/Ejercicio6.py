@@ -10,8 +10,7 @@ while more=='Si':
     value = input(key + ': ')
     person[key] = value
     print(person)
-    more = input('¿Quieres añadir más información (Si/No)? ')
-
+    
 # output:
 # ¿Qué dato quieres introducir?  Nombre
 # Nombre:  Alfredo Sánchez
